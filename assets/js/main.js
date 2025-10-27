@@ -92,6 +92,7 @@ function getCol() {
                 //Concateno alla variabile stinga creata precedentemente
                 colContainer += colDiv;
             });
+            rowCol.innerHTML = colContainer;
         })
 }
 
