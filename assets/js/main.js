@@ -70,3 +70,10 @@ const rowCol = document.getElementById('rowToInsert');
 const colsArray = [];
 //Variabile per dire quante col sono state generate 
 const colGenerated = 0;
+
+//Aggiungo una funzione per racchiudere un ciclo for 
+function getCol() {
+    //Semplice ciclo for
+    for (let i = 0; i < colNum; i++) {
+    }
+}
