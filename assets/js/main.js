@@ -66,15 +66,15 @@ const linkImage = "https://lanciweb.github.io/demo/api/pictures/";
 const colNum = 6;
 //Variabile per prendere il row dove inserire le col
 const rowCol = document.getElementById('rowToInsert');
-//Array for the cols
-const colsArray = [];
-//Variabile per dire quante col sono state generate 
-const colGenerated = 0;
 
 //Aggiungo una funzione per racchiudere un ciclo for 
 function getCol() {
     //Semplice ciclo for
     for (let i = 0; i < colNum; i++) {
-        
-    }
+        axios.get(linkImage)
+        .then(response => {
+            const picturesCol = response.data;
+        });
+    };
 }
+
