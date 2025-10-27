@@ -66,3 +66,7 @@ const linkImage = "https://lanciweb.github.io/demo/api/pictures/";
 const colNum = 6;
 //Variabile per prendere il row dove inserire le col
 const rowCol = document.getElementById('rowToInsert');
+//Array for the cols
+const colsArray = [];
+//Variabile per dire quante col sono state generate 
+const colGenerated = 0;
