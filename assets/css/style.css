@@ -27,7 +27,7 @@ main{
 }
 .col{
     width: calc( 100 / 3 );
-    margin: 50px;
+    margin: 50px 5px;
     position: relative;
 }
 .card{
