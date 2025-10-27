@@ -75,5 +75,6 @@ const colGenerated = 0;
 function getCol() {
     //Semplice ciclo for
     for (let i = 0; i < colNum; i++) {
+        
     }
 }
