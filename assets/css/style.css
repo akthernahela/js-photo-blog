@@ -38,6 +38,9 @@ main{
 
 .pin{
     position: absolute;
-    left: 45%;
-    width: 50px;
+    left: 40%;
+    top: -10px;
+    img{
+        width: 60px;
+    }
 }
