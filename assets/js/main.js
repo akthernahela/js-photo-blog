@@ -95,4 +95,4 @@ function getCol() {
             rowCol.innerHTML = colContainer;
         })
 }
-
+getCol()
