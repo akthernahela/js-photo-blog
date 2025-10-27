@@ -22,10 +22,12 @@ main{
 .container{
     width: 70%;
 }
+.col{
+    margin: 50px;
+}
 .card{
-    margin: 20px;
     border-radius: 0%;
-    img{
+    .card-img-top{
         width: 90%;
         border-radius: 0%;
         margin: 1rem;
