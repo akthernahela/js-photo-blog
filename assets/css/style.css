@@ -35,7 +35,6 @@ main{
         text-align: center;
     }
 }
-
 .pin{
     position: absolute;
     left: 40%;
@@ -44,3 +43,4 @@ main{
         width: 60px;
     }
 }
+/* #endregion main */
