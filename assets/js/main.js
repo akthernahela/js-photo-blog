@@ -69,12 +69,6 @@ const rowCol = document.getElementById('rowToInsert');
 
 //Aggiungo una funzione per racchiudere un ciclo for 
 function getCol() {
-    //Semplice ciclo for
-    for (let i = 0; i < colNum; i++) {
-        axios.get(linkImage)
-        .then(response => {
-            const picturesCol = response.data;
-        });
-    };
+    
 }
 
