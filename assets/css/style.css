@@ -12,3 +12,13 @@ header{
         font-weight: bold;
     }
 }
+/* #endregion header */ 
+
+/* #region main */
+main{
+    background-image: url(../img/cork.png);
+}
+
+.container{
+    width: 70%;
+}
