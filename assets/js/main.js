@@ -71,8 +71,12 @@ const rowCol = document.getElementById('rowToInsert');
 function getCol() {
     let colContainer = '';
     axios.get(linkImage)
-    .then(response => {
-        
-    })
+        .then(response => {
+            const pictures = response.data
+            //Utilizzo un ciclo forEach
+            pictures.forEach(picture => {
+                //Per ogni picture devo aggiungere il codice HTML (CREO UNA VARIABILE CHE INCLUDE IL CODICE)
+            });
+        })
 }
 
