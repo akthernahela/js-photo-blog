@@ -76,6 +76,19 @@ function getCol() {
             //Utilizzo un ciclo forEach
             pictures.forEach(picture => {
                 //Per ogni picture devo aggiungere il codice HTML (CREO UNA VARIABILE CHE INCLUDE IL CODICE)
+                const colDiv = `
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="pin">
+                            <img src="./assets/img/pin.svg" alt="">
+                        </div>
+                        <img src="${picture.url}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-body-secondary date">Date</h6>
+                            <h5 class="card-title">Card title</h5>
+                        </div>
+                    </div>
+                </div>`
             });
         })
 }
