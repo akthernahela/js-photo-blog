@@ -62,3 +62,7 @@ sfruttando la risposta per generare dinamicamente in pagina una serie di foto!
 
 //Creo una variabile per url
 const linkImage = "https://lanciweb.github.io/demo/api/pictures/";
+//Variabile per il numero di col che voglio generare
+const colNum = 6;
+//Variabile per prendere il row dove inserire le col
+const rowCol = document.getElementById('rowToInsert');
