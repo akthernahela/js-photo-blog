@@ -24,6 +24,7 @@ main{
 }
 .col{
     margin: 50px;
+    position: relative;
 }
 .card{
     border-radius: 0%;
@@ -33,4 +34,10 @@ main{
         margin: 1rem;
         text-align: center;
     }
+}
+
+.pin{
+    position: absolute;
+    left: 45%;
+    width: 50px;
 }
