@@ -17,6 +17,7 @@ header{
 /* #region main */
 main{
     background-image: url(../img/cork.png);
+    font-family: "Sometype Mono", monospace;
 }
 
 .container{
