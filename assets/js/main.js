@@ -96,3 +96,6 @@ function getCol() {
         })
 }
 getCol()
+
+//Funzioni per overlay
+
