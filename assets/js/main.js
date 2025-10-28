@@ -131,3 +131,11 @@ function getCol() {
 }
 getCol()
 
+function on() {
+  overlay.style.display = "block";
+}
+
+function off() {
+  overlay.style.display = "none";
+}
+
