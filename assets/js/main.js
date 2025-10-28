@@ -99,7 +99,7 @@ function getCol() {
 }
 getCol()
 */
-
+/*
 //Faccio la funzione precedente con l'overlay
 //Aggiungo una funzione per racchiudere un ciclo for 
 function getCol() {
@@ -138,3 +138,34 @@ function on() {
 function off() {
   overlay.style.display = "none";
 }
+*/
+//Non si riesce ad includere le immagini con overlay
+//Rifaccio
+function getCol() {
+    let colContainer = '';
+    axios.get(linkImage)
+        .then(response => {
+            const pictures = response.data
+            //Utilizzo un ciclo forEach
+            pictures.forEach(picture => {
+                //Per ogni picture devo aggiungere il codice HTML (CREO UNA VARIABILE CHE INCLUDE IL CODICE)
+                const colDiv = `
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <div class="pin">
+                            <img src="./assets/img/pin.svg" alt="">
+                        </div>
+                        <img src="${picture.url}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-body-secondary date">${picture.date}</h6>
+                            <h5 class="card-title">${picture.title}</h5>
+                        </div>
+                    </div>
+                </div>`
+                //Concateno alla variabile stinga creata precedentemente
+                colContainer += colDiv;
+            });
+            rowCol.innerHTML = colContainer;
+        })
+}
+getCol()
