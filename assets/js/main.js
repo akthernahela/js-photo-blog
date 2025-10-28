@@ -166,6 +166,12 @@ function getCol() {
                 colContainer += colDiv;
             });
             rowCol.innerHTML = colContainer;
+            const images = document.querySelectorAll('card-img-top');
+            images.forEach(image => {
+                image.addEventListener(click, function(){
+                    on(this);//this = element
+                })
+            })
         })
 }
 getCol()
