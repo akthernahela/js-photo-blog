@@ -116,7 +116,7 @@ function getCol() {
                         <div class="pin">
                             <img src="./assets/img/pin.svg" alt="">
                         </div>
-                        <img src="${picture.url}" class="card-img-top" alt="...">
+                        <img src="${picture.url}" onclick="on(this)" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h6 class="card-subtitle mb-2 text-body-secondary date">${picture.date}</h6>
                             <h5 class="card-title">${picture.title}</h5>
