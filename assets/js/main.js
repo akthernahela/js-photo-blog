@@ -138,4 +138,3 @@ function on() {
 function off() {
   overlay.style.display = "none";
 }
-
