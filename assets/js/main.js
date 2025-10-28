@@ -64,6 +64,10 @@ sfruttando la risposta per generare dinamicamente in pagina una serie di foto!
 const linkImage = "https://lanciweb.github.io/demo/api/pictures/";
 //Variabile per prendere il row dove inserire le col
 const rowCol = document.getElementById('rowToInsert');
+//Creo le variabile per prendere gli id dal DOM
+const overlay = document.getElementById('overlay');
+const imgOverlay = document.getElementById('overlay-image');
+
 /*
 //Aggiungo una funzione per racchiudere un ciclo for 
 function getCol() {
